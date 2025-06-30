@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranesh R - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/jp logo.jpg" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Pranesh R</span><br>Developer From Manapparai</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------- About -------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/jp_about.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a skilled web and UI/UX designer with a passion for creating visually captivating and user-friendly digital experiences. With a keen eye for detail and a commitment to excellence, I transform ideas into stunning, functional designs. I continuously seek to innovate and stay ahead of design trends, ensuring every project not only meets but exceeds client expectations.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025 June</span><br>Internship at Pydun Technology, Madurai</li>
+                            <li><span>2025 January</span><br>Internship at Codesoft(online)</li>
+                            <li><span>2024 January</span><br>Figma Workshop at PSNACET</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - 2027</span><br>PSNA College of Engineering and Technology</li>
+                            <li><span>2016 - 2023</span><br>St Antony's Hr sec school, Boystown</li>
+                            <li><span>2011-2016</span><br>Sahaya Annai Matriculation School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------- Services -------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <span class="symbol"><></span>
+                    <h2>Web Design</h2>
+                    <p>Crafting visually appealing, user-friendly, and responsive websites tailored to enhance user experience and brand identity. Focused on clean layouts, intuitive navigation, and modern design principles.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <span class="symbol">🎨</span>
+                    <h2>UI/UX Design</h2>
+                    <p>Designing intuitive and engaging user interfaces that prioritize usability, accessibility, and seamless user experiences. Focused on wireframes, user flows, and responsive design for all devices.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <span class="symbol">📱</span>
+                    <h2>App Design</h2>
+                    <p>Creating sleek and functional mobile app interfaces with a focus on user-centric design, performance, and cross-platform consistency. Ensuring smooth navigation and visually appealing layouts.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------- Portfolio -------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="Work 1">
+                    <div class="layer">
+                        <h3>Personal Portfolio (HTML, CSS, JS)</h3>
+                        <p>A responsive personal website to showcase my projects, skills, and achievements.
+Crafted using clean HTML, modern CSS, and interactive JavaScript.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="Work 2">
+                    <div class="layer">
+                        <h3> Train Ticket Booking (JavaFX + MySQL)</h3>
+                        <p>A desktop application to book and manage train tickets with real-time database updates.
+Built using JavaFX for UI and MySQL for backend data handling.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="Work 3">
+                    <div class="layer">
+                        <h3>Bank Management System (MySQL)</h3>
+                        <p>A database-driven system to manage bank accounts, transactions, and customer data.
+Designed with SQL queries and normalization principles for efficient performance.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-------------------------------- Contact -------------------------------->
+    <div id="contact">
+        <div class="container">
+            <h1 class="sub-title">Contact Me</h1>
+            <div class="row">
+                <div class="contact-left">
+                    <p><i class="fas fa-paper-plane"></i> javkingpranesh18@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +91 9042585083</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/javking_pranesh_18/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/pranesh-r-b69b00298/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-------------------------------- Footer -------------------------------->
+<footer>
+    <div class="container">
+        <p>© 2025 Javking Pranesh. All rights reserved.</p>
+    </div>
+</footer>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
